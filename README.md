@@ -67,19 +67,19 @@ In order to combat the spread of misinformation and fake news, we have decided t
 
 ## Structure
 
-## Scraping Reddit Data
+## 1.1 Scraping Reddit Data
 
 Using pushshift API to scrape reddit posts, I was able to scrape about 2500 posts from each subreddit in order to build a dataset to build my models on.
 
-## Data Cleaning
+##  1.2/1.3 Data Cleaning
 
 Cleaning the scraped data and identifying which features to be used for the exploratory data analysis
 
-## EDA: Exploratory Data Analysis
+## 2.1 EDA: Exploratory Data Analysis
 
 Finding general observations about the data, feature building, finding top words and bigrams using CountVectorizer() to finalize the dataset that will be used for modelling
 
-## Modelling
+## 3.1 Modelling
 
 A total of 3 models were used to model the data. Logistic Regression, Random Forest, Logistic Regression. A total of 2 transformers were used CountVectorizer and TfidfVectorizer to transform the data to fit the models.
 
